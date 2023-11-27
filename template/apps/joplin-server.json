@@ -28,6 +28,11 @@
 			"name": "POSTGRES_DB"
 		},
 		{
+			"default":"joplin",
+			"label":"POSTGRES_DATABASE",
+			"name": "POSTGRES_DATABASE"
+		}
+		{
 			"default": "joplin",
 			"label": "POSTGRES_PASSWORD",
 			"name": "POSTGRES_PASSWORD"
