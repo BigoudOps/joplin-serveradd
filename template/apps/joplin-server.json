@@ -1,0 +1,29 @@
+{
+	"categories": [
+		"Backup",
+		"CMD",
+		"Web",
+		"Tools"
+	],
+	"description": "Joplin Server is a web app that allows you to sync and share notes with Joplin, a popular note-taking app.",
+	"env": [
+		{
+			"default":"http://localhost:22300",
+			"label":"APP_BASE_URL",
+			"name" : "APP_BASE_URL"
+		}
+	],
+	"logo": "https://raw.githubusercontent.com/BigoudOps/joplin-serveradd/images/joplin.png",
+	"name": "joplin-server",
+	"officialDoc": "https://github.com/etechonomy/joplin-server",
+	"platform": "linux",
+	"repository": {
+		"stackfile_arm64": "stack/joplin-server.yml",
+		"stackfile_amd64": "stack/joplin-server.yml",
+		"url": "https://github.com/BigoudOps/joplin-serveradd/"
+	},
+	"restart_policy": "unless-stopped",
+	"title": "Joplin server",
+	"type": 3,
+	"webpage": "https://hub.docker.com/r/etechonomy/joplin-server"
+}
