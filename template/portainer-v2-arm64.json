@@ -3678,21 +3678,6 @@
 			"description": "Joplin Server is a web app that allows you to sync and share notes with Joplin, a popular note-taking app.",
 			"env": [
 				{
-					"default": "joplin",
-					"label": "DATABASE_NAME",
-					"name": "DATABASE_NAME"
-				},
-				{
-					"default": "drupal",
-					"label": "DATABASE_USER",
-					"name": "DATABASE_USER"
-				},
-				{
-					"default": "",
-					"label": "DATABASE_PASSWORD",
-					"name": "DATABASE_PASSWORD"
-				},
-				{
 					"default": "http://localhost:22300",
 					"label": "APP_BASE_URL",
 					"name": "APP_BASE_URL"
