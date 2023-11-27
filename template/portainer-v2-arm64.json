@@ -3679,8 +3679,8 @@
 			"env": [
 				{
 					"default": "http://localhost:22300",
-					"label": "APP_BASE_URL",
-					"name": "http://localhost:22300"
+					"label": "URL",
+					"name": "URL"
 				},
 				{
 					"default": "22300",
