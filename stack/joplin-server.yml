@@ -4,15 +4,15 @@ services:
     image: etechonomy/joplin-server:latest
     container_name: joplin-server
     environment:
-      APP_BASE_URL: ${http://localhost:22300}
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      APP_PORT: ${__PORT__}
-      POSTGRES_PASSWORD : ${POSTGRES_PASSWORD}
-      POSTGRES_DATABASE: ${POSTGRES_DATABASE}
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PORT: "5432"
-      POSTGRES_HOST: "joplin-db"
-      DB_CLIENT: "pg"
+            - APP_BASE_URL=${URL}
+            - APP_PORT=${__PORT__}
+            - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+            - POSTGRES_DATABASE=${POSTGRES_DATABASE}
+            - POSTGRES_USER=${POSTGRES_USER} 
+            - POSTGRES_PORT=5432 
+            - POSTGRES_HOST=joplin-db
+            - DB_CLIENT=pg
+
     restart: unless-stopped
     ports:
       - 22300:22300
