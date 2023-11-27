@@ -3680,7 +3680,12 @@
 				{
 					"default": "http://localhost:22300",
 					"label": "APP_BASE_URL",
-					"name": "APP_BASE_URL"
+					"name": "__http://localhost:22300__"
+				},
+				{
+					"default": "22300",
+					"label": "APP_PORT",
+					"name": "__PORT__"
 				}
 			],
 			"logo": "https://raw.githubusercontent.com/BigoudOps/joplin-serveradd/images/joplin.png",
