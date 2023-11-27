@@ -3688,6 +3688,48 @@
 		},
 		{
 			"categories": [
+				"Backup",
+				"CMD",
+				"Web",
+				"Tools"
+			],
+			"description": "Joplin Server is a web app that allows you to sync and share notes with Joplin, a popular note-taking app.",
+			"env": [
+				{
+					"default": "joplin",
+					"label": "DATABASE_NAME",
+					"name": "DATABASE_NAME"
+				},
+				{
+					"default": "drupal",
+					"label": "DATABASE_USER",
+					"name": "DATABASE_USER"
+				},
+				{
+					"default": "",
+					"label": "DATABASE_PASSWORD",
+					"name": "DATABASE_PASSWORD"
+				},
+				{
+					"default": "http://localhost:22300",
+					"label": "APP_BASE_URL",
+					"name": "APP_BASE_URL"
+				}
+			],
+			"logo": "https://raw.githubusercontent.com/BigoudOps/joplin-serveradd/images/joplin.png",
+			"name": "joplin-server",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "stack/joplin-server.yml",
+				"url": "https://github.com/BigoudOps/joplin-serveradd/"
+			},
+			"restart_policy": "unless-stopped",
+			"title": "Joplin server",
+			"type": 3,
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/etechonomy/joplin-server\" target=\"_blank\">https://hub.docker.com/r/etechonomy/joplin-server</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/etechonomy/joplin-server\" target=\"_blank\">https://github.com/etechonomy/joplin-server</a><br><br><br>"
+		},
+		{
+			"categories": [
 				"Utilities",
 				"tools"
 			],
