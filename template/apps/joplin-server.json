@@ -16,6 +16,21 @@
 			"default":"22300",
 			"label":"APP_PORT",
 			"name":"__PORT__"
+		},
+		{
+			"default": "joplin",
+			"label": "POSTGRES_USER",
+			"name": "POSTGRES_USER"
+		},
+		{
+			"default": "joplin",
+			"label": "POSTGRES_DB",
+			"name": "POSTGRES_DB"
+		},
+		{
+			"default": "joplin",
+			"label": "POSTGRES_PASSWORD",
+			"name": "POSTGRES_PASSWORD"
 		}
 	],
 	"logo": "https://raw.githubusercontent.com/BigoudOps/joplin-serveradd/images/joplin.png",
