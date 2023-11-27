@@ -10,7 +10,7 @@ services:
       - POSTGRES_DATABASE=${POSTGRES_DATABASE}
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PORT=5432
-      - POSTGRES_HOST:joplin-db
+      - POSTGRES_HOST=joplin-db
       - DB_CLIENT=pg
 
     restart: unless-stopped
