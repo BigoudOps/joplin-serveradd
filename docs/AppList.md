@@ -98,7 +98,7 @@ List of all apps included in this project with info related to it.
 |[Jellyfin](https://jellyfin.org/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-jellyfin) |  |  |  |
 |[Jellyseerr](https://github.com/Fallenbagel/jellyseerr)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/fallenbagel/jellyseerr) |  |  |  |
 |[Jellyfin-Accounts](https://jfa-go.com/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://wiki.jfa-go.com/) |  |  |  |
-|[Joplin server](https://hub.docker.com/r/etechonomy/joplin-server)|:x:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/etechonomy/joplin-server) |  |  |  |
+|[]()|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|| [![](../build/images/blue_doc_icon.png)]() | [![](../build/images/red_doc_icon.png)](../docs/) | [![](../build/images/script_icon.png)](../tools/) | [![](../build/images/yt-badge-.png "")]() |
 |[Kasm](https://www.kasmweb.com/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/linuxserver/docker-kasm) |  |  |  |
 |[Kasm with renderD128 support](https://www.kasmweb.com/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/linuxserver/docker-kasm) |  |  |  |
 |[Kavita](https://www.kavitareader.com/#home)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://wiki.kavitareader.com/en/install/docker-install) |  |  |  |
