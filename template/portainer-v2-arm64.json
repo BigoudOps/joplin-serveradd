@@ -3680,7 +3680,7 @@
 				{
 					"default": "http://localhost:22300",
 					"label": "APP_BASE_URL",
-					"name": "__http://localhost:22300__"
+					"name": "http://localhost:22300"
 				},
 				{
 					"default": "22300",
